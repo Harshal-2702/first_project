@@ -1,0 +1,94 @@
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.box {
+  border: 3px solid #666;
+  background-color: rgb(255, 0, 0);
+  border-radius: .5em;
+  padding: 10px;
+  cursor: move;
+}
+.box2 {
+  border: 3px solid #666;
+  background-color: rgb(5, 1, 1);
+  border-radius: .5em;
+  padding: 10px;
+  cursor: move;
+}
+
+
+
+
+.bb{
+  border: 2px solid yellow;
+}
+
+.new1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+.box1 {
+  border: 3px solid #666;
+  background-color: rgb(255, 0, 0);
+  border-radius: .5em;
+  padding: 10px;
+  cursor: move;
+}
+
+
+.container {
+  position: relative;
+  top: 30px;
+  outline: 2px solid #000;
+  font-size: 0;
+  margin: auto;
+  height: 400px;
+  width: 400px;
+  padding: 0;
+  border: none;
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 1px solid #000;
+  background-color: red;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+}
+#tb {
+  position: relative;
+  top: 30px;
+  outline: 1px solid rgb(0, 0, 0);
+  font-size: 0;
+  margin: auto;
+  height: 960px;
+  width: 948px;
+  padding: 0px;
+  border: none;
+}
+myCell{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 1px solid #000;
+  background-color:none;
+  display: inline-block;
+  height: 60px;
+  width: 59px;
+}
+#idd00{
+  background-color: firebrick;
+}
+.cells{
+  cursor: move;
+}
